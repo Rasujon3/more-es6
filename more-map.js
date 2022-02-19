@@ -11,8 +11,9 @@ const products = [
   { name: "water glass", price: 3, color: "white" },
 ];
 
-const productNames = products.map((product) => product.name);
+const productNames = products.map((product) => console.log(product));
 const productPrices = products.map((product) => product.price);
 // products.map((product) => console.log(product.color));
-products.forEach((product) => console.log(product));
+const item = products.forEach((product) => product.name);
 // console.log(productPrices);
+console.log(item);
